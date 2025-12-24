@@ -122,7 +122,7 @@ We used the following 3 Python scripts to derive our augmented dataset from the 
 <br>
 Step1: Generated  colorized mask files  from the json files in <b>File1/ann</b> folder by using the MaskGenerator.<br>
 Step2: Generated  augmented image and mask dataset from  the original image files and the colorized mask files  by using the ImageMaskDatasetGenerator.<br>
-Step3: Split the augmented dataset into test, train and valid subset.<br>
+Step3: Split the augmented dataset into test, train and valid subsets by using the splitting tool.<br>
 <br>
 We also used the following color-class mapping table to generate the colorized masks and define a rgb_map mask format between indexed colors and rgb colors
 in <a href="./projects/TensorFlowFlexUNet/Car-Damages/train_eval_infer.config">train_eval_infer.config</a>.
