@@ -78,7 +78,8 @@ class MaskGenerator:
 
 if __name__ == "__main__":
   try:
-    annotations_dir = "./Car parts dataset/File1/ann/"
+    #Renamed the original "Car parts dataset" folder name to "Car damages dataset"  
+    annotations_dir = "./Car damages dataset/File1/ann/"
     output_dir      = "./Car-Damages/masks/"
     if os.path.exists(output_dir):
       shutil.rmtree(output_dir)
