@@ -1,5 +1,4 @@
 <h2>TensorFlow-FlexUNet-Image-Segmentation-Car-Damages (2025/12/25)</h2>
-<h3>Revisiting Aerial Semantic Segmentation (Car-Damages)</h3>
 Toshiyuki Arai<br>
 Software Laboratory antillia.com<br><br>
 This is the first experiment of Image Segmentation for Car-Damages 
