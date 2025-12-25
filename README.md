@@ -116,7 +116,7 @@ We used the following 3 Python scripts to derive our augmented dataset from the 
 <br><ul>
 <li><a href="./generator/MaskGenerator.py">MaskGeneratory.py</a></li>
 <li><a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGeneratory.py</a></li>
-<li><a href="./generator/split_master.py">split_maskter.py</a></li>
+<li><a href="./generator/split_master.py">split_master.py</a></li>
 </ul>
 <br>
 Step1: Generated  colorized mask files  from the json files in <b>File1/ann</b> folder by using the MaskGenerator.<br>
